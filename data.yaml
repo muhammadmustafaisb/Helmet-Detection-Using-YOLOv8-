@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/Yolov8/data/train/images
+val: /content/drive/MyDrive/Yolov8/data/valid/images
+test: /content/drive/MyDrive/Yolov8/data/test/images
+
+nc: 3
+names: ['head', 'helmet', 'person']
+
+roboflow:
+  workspace: facial-emotion-detection
+  project: hard-hat-sample-h6hez
+  version: 2
+  license: Public Domain
+  url: https://app.roboflow.com/facial-emotion-detection/hard-hat-sample-h6hez/2
